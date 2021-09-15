@@ -1,0 +1,33 @@
+{
+	"name": "slider",
+	"version": "1.0.0",
+	"description": "Carousel slider",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack-dev-server --mode development --open",
+		"build": "webpack --mode production"
+	},
+	"keywords": [
+		"js",
+		"javascript",
+		"webpack",
+		"css",
+		"html"
+	],
+	"author": "Vyacheslav Hludnev <vj.hludnev@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.15.5",
+		"@babel/preset-env": "^7.15.6",
+		"babel-loader": "^8.2.2",
+		"clean-webpack-plugin": "^4.0.0",
+		"copy-webpack-plugin": "^9.0.1",
+		"css-loader": "^6.2.0",
+		"html-webpack-plugin": "^5.3.2",
+		"style-loader": "^3.2.1",
+		"webpack": "^5.52.0",
+		"webpack-cli": "^4.8.0",
+		"webpack-dev-server": "^4.1.0"
+	}
+}
